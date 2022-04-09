@@ -1,0 +1,15 @@
+{
+  
+  "ResturantName" : "Pizza Hut ",
+  "Branches" : ["PECHS", "UNIRoad" , "SeaView" ] ,
+  "Total Branches" :25 , 
+  "Menu Atom " : ["fajita", "Cheese", "peproni"],
+  
+"Chicken Tikka " :{
+  "Size" : ["regular" , "large"],
+  "price" : {
+    "regular" : 700 ,
+    "large"   : 999 
+  }
+}
+  }
