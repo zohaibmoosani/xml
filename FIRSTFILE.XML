@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Bill[
+<!ELEMENT Bill (CustomerName,PhoneNumber,bills,tip,mode,orderitems) >
+<!ELEMENT CustomerName (#PCDATA)>
+<!ELEMENT PhoneNumber (#PCDATA)>
+<!ELEMENT bills (#PCDATA)>
+<!ELEMENT mode (#PCDATA)>
+<!ELEMENT groceryitems (item1,item2,item3,item4.item5.item6,)>
+<!ELEMENT item1 (#PCDATA)>
+<!ELEMENT item2 (#PCDATA)>
+<!ELEMENT item3 (#PCDATA)>
+<!ELEMENT item4 (#PCDATA)>
+<!ELEMENT item5 (#PCDATA)>
+<!ELEMENT item6 (#PCDATA)>
+<!ELEMENT BAKING (item1,item2,item3,item4)>
+<!ELEMENT item1 (#PCDATA)>
+<!ELEMENT item2 (#PCDATA)>
+<!ELEMENT item3 (#PCDATA)>
+<!ELEMENT item4 (#pCDATA)>
+<!ELEMENT SPices (item1,item2,item3,item4)>
+<!ELEMENT item1 (#PCDATA)>
+<!ELEMENT item2 (#PCDATA)>
+<!ELEMENT item3 (#PCDATA)>
+<!ELEMENT item4 (#pCDATA)>
+
+
+]>
+
+<Bill>
+    <CustomerName>ZOHAIBMOOSANI</CustomerName>
+    <PhoneNumber>0900-78601</PhoneNumber>
+    <bills>Rs 5000PKR</bills>
+    <mode>Diamond Card</mode>
+    <groceryitems>
+        <item1>Meat</item1>
+        <item2>Rice</item2>
+        <item3>Oils</item3>
+          <item4>Cereals</item4>
+        <item5>Soups</item5>
+        <item6>orange juice</item6>        
+        <BAKING>
+        <item1>Flour</item1>
+        <item2>Wcornflour</item2>
+        <item3>cocoa powder,</item3>
+        </BAKING>
+         <SPices>
+        <item1>chilli powder</item1>
+        <item2>paprika</item2>
+        <item3>garam masala</item3>
+        <item4>curry powde</item4>
+         </SPices>
+    </groceryitems>
+</Bill>
